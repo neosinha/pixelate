@@ -129,8 +129,8 @@ class Pixelate(object):
             
         pximg = self.frame
         
-        tstamp = str(datetime.datetime.today()).split('.')[0]
-        lbl = '{} Faces   {}'.format(len(self.faces), tstamp)
+        #tstamp = str(datetime.datetime.today()).split('.')[0]
+        #lbl = '{} Faces   {}'.format(len(self.faces), tstamp)
         fontColor = (0, 255, 0)
         height, width, channels = self.frame.shape
         
@@ -178,9 +178,9 @@ class Pixelate(object):
             print('Duration: %s, %s, %s' % (ts2-ts1, ts1, ts2))
        
                 
-        cv2.putText(pximg, lbl, (width-int(width*0.9), 
-                                 (height-int(height*0.9) ) ),
-                                 cv2.FONT_HERSHEY_SIMPLEX, 1, fontColor)
+        #cv2.putText(pximg, lbl, (width-int(width*0.9), 
+        #                         (height-int(height*0.9) ) ),
+        #                         cv2.FONT_HERSHEY_SIMPLEX, 1, fontColor)
         
         pfnamex = "{}-pxltd.JPG".format(count)
         pfname = os.path.join(self.outdir, pfnamex)
