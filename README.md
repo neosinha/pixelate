@@ -2,7 +2,7 @@
 Cameras are omipresent today, and we as users flood the social media space with pictures of us with our lives. 
 PIXELATE applies facial detection and pixelates the faces it detects selectively or all.  
 
-Before ![Picture](https://github.com/neosinha/pixelate/blob/master/examples/testimges/abba-1.png?raw=true)              Pixletaed  ![Pixelated](https://github.com/neosinha/pixelate/blob/master/examples/output/abba-1-pxltd.JPG?raw=true) 
+Before ![Picture](https://github.com/neosinha/pixelate/blob/master/examples/testimges/abba-1.png?raw=true)              Pixelated  ![Pixelated](https://github.com/neosinha/pixelate/blob/master/examples/output/abba-1-pxltd.JPG?raw=true) 
 
 
 ***
