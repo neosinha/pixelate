@@ -10,7 +10,9 @@ import os
 
 class PixelateCore(object):
     '''
-    classdocs
+    PixelateCore would build a classifier object
+    which can called on multiple images
+
     '''
 
 
@@ -29,12 +31,8 @@ class PixelateCore(object):
     def facedetectFrame(self, iframe):
         '''
         Perform Face detection on the frame
-        +iframe : 
+        +iframe : output of cv2.imread
         '''
         grayFrame = cv2.cvtColor(iframe, cv2.COLOR_BGR2GRAY)
         print(len(grayFrame))
-        
 
-
-
-        
