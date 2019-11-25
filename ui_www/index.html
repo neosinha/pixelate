@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>NetPlanner</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+ <!-- Favicon Links-->
+<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+ <!-- ============================================================= -->
+ 
+ <!--  CSS + Fonts   -->
+ <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lato|Oswald|Raleway|Roboto|Source+Sans+Pro|Source+Code+Pro" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Bungee+Outline|Bungee+Shade|Monoton|Vast+Shadow" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Poiret+One|Inconsolata" rel="stylesheet">
+ <!-- Horizontal timeline CSS -->
+ <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
+ 
+ 
+ <!--  App specific CSS  -->
+ <link rel="stylesheet" href="css/rangeslider.css">
+ <link rel="stylesheet" href="css/app.css"> 
+ 
+ 
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+<link rel="stylesheet" href="css/bootstrap-slider.min.css">
+<script src="js/bootstrap-slider.min.js"></script>
+
+
+<script src="justguage/justgage.js"></script>
+<script src="justguage/raphael-2.1.4.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/knockout/knockout-2.2.1.js"></script>
+<script src="js/sevenSeg.js"></script>
+
+
+<link href="rslider/roundslider.min.css" rel="stylesheet" />
+<script src="rslider/roundslider.min.js"></script>
+
+ <!--  Ajax Communication Library   -->
+ <script src="ajaxFuncs/ajaxComm.js"></script>
+ 
+ 
+ <!--  BootstrapUI JS     -->
+ <!--  script src="https://api.sinhallc.com/bootstrapui/bootstrapui.js"></script-->
+ 
+ <!-- Bootstrap Tables 
+ <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.13.5/dist/bootstrap-table.min.css">
+ <script src="https://unpkg.com/bootstrap-table@1.13.5/dist/bootstrap-table.min.js"></script>
+  -->
+  
+ <script src="js/bootstrapui.js"></script>
+ 
+ <!--  MQTT -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+ 
+ <!--  Application Logic -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js"></script>
+ <script src="js/app.js"></script>
+ 
+ <!--  All stacked views are defined in this file     -->
+ <script src="js/views.app.js"></script>
+ <script src="js/mqttInteractions.js"></script>
+<script src="cguage/gauge.min.js"></script>
+<script src="treeviz/index.js"></script>
+ <link rel="stylesheet" href="css/trafficlight.css"> 
+ <!-- link rel="stylesheet" href="css/guage.css"  -->
+  
+</head>
+
+
+<body id = "mainbody">
+
+ 	<!--  Placeholder tags -->
+	<div class="container" id="mcontent"></div>
+  
+ 	<div id="appmodal" class="modal fade" role="dialog">
+  		<div class="modal-dialog">
+    		<!-- Modal content-->
+    		<div class="modal-content">
+      			<div class="modal-header" id="modalheader">
+        			<button type="button" class="close" data-dismiss="modal">&times;</button>
+        			<h4 class="modal-title">Modal Header</h4>
+      			</div>
+      		
+      			<div class="modal-body" id="modalbody">
+        			<p>Some text in the modal.</p>
+      			</div>
+      			<div class="modal-footer" id="modalfooter">
+        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+
+  		</div>
+	</div>
+	
+	<div id="progress" class="modal fade" role="dialog">
+  		<div class="modal-dialog">
+    		<!-- Modal content-->
+    		<div class="modal-content">
+      			<!--  >div class="modal-header" id="modalheader">
+        			<button type="button" class="close" data-dismiss="modal">&times;</button>
+        			<h4 class="modal-title">Modal Header</h4>
+      			</div-->
+      		
+      			<div class="modal-body" id="modalbody">
+      				<img src="img/prog-linear.gif" class="img-rounded imcenter" >
+      			</div>
+      			<!--  >div class="modal-footer" id="modalfooter">
+        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      			</div-->
+    		</div>
+
+  		</div>
+	</div>
+
+ 	<!--  Fire off JS function upon load -->
+	<script>
+		appInit();
+	</script>
+	
+	
+</body>
+</html>

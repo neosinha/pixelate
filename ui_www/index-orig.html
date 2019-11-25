@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>WebAutomation</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+ 
+ <!--  CSS + Fonts   -->
+ <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lato|Oswald|Raleway|Roboto" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
+ <!--  App specific CSS  -->
+ <link rel="stylesheet" href="css/app.css"> 
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+ 
+ 
+ <!--  Ajax Communication Library   -->
+ <script src="ajaxFuncs/ajaxComm.js"></script>
+ 
+ 
+ <!--  BootstrapUI JS     -->
+ <!--  script src="https://api.sinhallc.com/bootstrapui/bootstrapui.js"></script-->
+ <script src="js/bootstrapui.js"></script>
+ 
+ <!--  MQTT -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+ 
+ <!--  Application Logic -->
+ <script src="js/app.js"></script>
+ 
+ <!--  All stacked views are defined in this file     -->
+ <script src="js/views.app.js"></script>
+ 
+
+</head>
+
+
+<body id = "mainbody">
+
+ 	<!--  Placeholder tags -->
+	<div class="container" id="mcontent"></div>
+	<div id="appmodal" class="modal fade" role="dialog"></div>
+  
+ 	<!--  Fire off JS function upon load -->
+ 	
+	<script>
+		appInit();
+	</script>
+	
+	
+</body>
+</html>
