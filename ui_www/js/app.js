@@ -93,6 +93,8 @@ btn.appendChild(upbtn);
 
 }
 
+function upload
+
 function addImageCol() {
   var rawimg = ui.createElement('img', 'rawimage');
   rawimg.setAttribute('src', 'img/example/abba-1.png');

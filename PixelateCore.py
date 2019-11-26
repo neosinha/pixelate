@@ -12,9 +12,7 @@ class PixelateCore(object):
     '''
     PixelateCore would build a classifier object
     which can called on multiple images
-
     '''
-
 
     def __init__(self):
         '''
@@ -27,7 +25,15 @@ class PixelateCore(object):
         
         self.faceCascade = cv2.CascadeClassifier(self.cascPath)
         
-    
+
+    def processImage(self, iFile):
+        """
+        Process Image
+        :param iFile:
+        :return: processed image path
+        """
+
+
     def facedetectFrame(self, iframe):
         '''
         Perform Face detection on the frame
@@ -35,4 +41,6 @@ class PixelateCore(object):
         '''
         grayFrame = cv2.cvtColor(iframe, cv2.COLOR_BGR2GRAY)
         print(len(grayFrame))
+
+
 

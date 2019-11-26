@@ -10,7 +10,7 @@ import base64, json
 import logging
 import datetime, time, os, sys, shutil
 import cherrypy as HttpServer
-
+from PixelateCore import PixelateCore
 
 class PixelateServer(object):
     '''
@@ -31,6 +31,9 @@ class PixelateServer(object):
         uploaddir = os.path.join(self.staticdir, '..', 'uploads')
         if uploaddir: 
             self.uploaddir = uploaddir
+
+        # Initiallize FaceDetectCore
+        self.faceDetector = PixelateCore()
             
     @HttpServer.expose
     def index(self):
@@ -42,19 +45,55 @@ class PixelateServer(object):
         return open(os.path.join(self.staticdir, "index.html"))
 
     @HttpServer.expose
-    def imageupload(self, upfile):
+    def imgupload(self, upfile):
         """
         Handles image upload
         :return:
         """
         uploaddir = os.path.join(self.staticdir, 'uploads')
+        print("UploadFile: Name: %s, Type: %s " % (upfile.filename, upfile.content_type))
         if not os.path.exists(uploaddir):
             logging.info('Upload directory does not exist, creating %s' % (uploaddir))
             os.makedirs(uploaddir)
 
+        if upfile is not None:
+            ofile = os.path.join(uploaddir, upfile.filename)
+            print("Local filename: %s" % (ofile))
+            ofilex = open(ofile, "wb")
+            shutil.copyfileobj(upfile.file, ofilex)
+            logging.info("Copied tempfile into templocation %s" % (ofilex))
+            ofilex.close()
+            uptstamp = self.epoch()
+            pxfile = self.detectFaces(ifile = ofile)
+            enstamp = self.epoch()
+            out = {"start": uptstamp,
+                   'orgimg' : ofile,
+                   'pxlimg' : pxfile ,
+                   'end' : enstamp}
+            return json.dumps(out)
+        else:
+            return "Parameter: \"theFile\" was not defined"
+
+    def detectFaces(self, ifile):
+        """
+
+        :return:
+        """
+        ofile = ifile
+
+        return ofile
+
+    def epoch(self):
+        """
+        Returns Unix Epoch
+        """
+        epc = int(time.time() * 1000)
+
+        return epc
 
 
-# main code section
+
+            # main code section
 if __name__ == '__main__':
     port = 9005
     www = os.path.join(os.getcwd(), 'ui_www')
