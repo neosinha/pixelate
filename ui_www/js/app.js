@@ -5,15 +5,13 @@ console.log("Location: "+ server);
 
 
 function appInit() {
-	getSystemInfo();
-	
-	
-}
-
-function drawView() {
 	appNavBar();
 	loadLandingView(); 
 	updatePerSecond();
+	addImageCol();
+	addButtonCol();
+
+	initUpload();
 }
 
 var serialnum = null; 
@@ -30,6 +28,16 @@ function updatePerSecond() {
 	setTimeout(updatePerSecond, 1000);
 }
 
+function initUpload() {
+    $('#imgbtn').fileupload({
+        dataType: 'image',
+        done: function (e, data) {
+            $.each(data.result.files, function (index, file) {
+                $('<p/>').text(file.name).appendTo(document.body);
+            });
+        }
+    });
+}
 
 
 function loadLandingView() {
@@ -37,41 +45,17 @@ function loadLandingView() {
 		var h1x = ui.h3(null, '', [{'name' : 'class', 'value' : 'mainlogo text-center' }]);
 		var jum = ui.jumbotron('view1', h1x,' bg-basic'); 
 		
-		
-		//create tab area
-		var tabs = new Array();
-		
-		
-		tabs.push({'name' : "<span class='maintab'>System</span>" ,
-			'content' : systemView() });
-		
-		tabs.push({'name' : "<span class='maintab'>Network</span>" ,
-					'content' : networkInfo() });
-		
-		tabs.push({'name' : "<span class='maintab'>Firewall</span>" ,
-					'content' : firewallView() });
-		
-		navtabs= ui.navtabs('tabbed', 'justified bg-basic text-warning', tabs );
+        var crow = ui.addRowCol('imagerow', 2);
+        var brow = ui.addRowCol('buttonrow', 2);
 
-		
-		//var inpbar = jum.appendChild(inpx2);
-		/*var clockdiv = ui.createElement('div', 'clock');
-		clockdiv.setAttribute('class', 'clock');
-		jum.appendChild(clockdiv);
-		*/
-		
-		//jum.appendChild(ui.hr() );
-		//var guagearea = ui.createElement('div', 'guagearea');
-		//guagearea.appendChild(productionView1());
-		
-		//jum.appendChild(packetLayout());
+
 		var resultarea = ui.createElement('div', 'results');
-		
 		var notifyarea = ui.createElement('div', 'notify');
 		
 		//jum.appendChild(farStatusForm());
-		jum.appendChild(navtabs);
-//		/jum.appendChild(guagearea);
+        //jum.appendChild(guagearea);
+        jum.appendChild(crow);
+        jum.appendChild(brow);
 		jum.appendChild(resultarea);
 		
 		//jum.appendChild(xmlarea);
@@ -85,9 +69,51 @@ function loadLandingView() {
 		$('#modalbody').html('uuuu'); 
 		$('#modalfooter').html(''); 
 		
-		$('#serialnumber').val('1917Q-20112'); 
-		$('#partnum').val('800939-00-04'); 
 }
+
+function addButtonCol() {
+var upbtn = ui.createElement('a', 'upload');
+upbtn.setAttribute('class', 'btn btn-block btn-warning');
+upbtn.innerText = 'Upload Image';
+
+var icon = ui.createElement('span', 'uploadicon');
+icon.setAttribute('class', 'glyphicon glyphicon-cloud-upload');
+upbtn.appendChild(icon);
+
+var btn = document.getElementById('buttonrow-col0');
+var fl = ui.createElement('input', 'imgbtn');
+fl.setAttribute('type', 'file');
+fl.setAttribute('name', 'upfile');
+fl.setAttribute('data-url', '/imgupload');
+
+btn.appendChild(fl);
+btn.appendChild(ui.br());
+
+btn.appendChild(upbtn);
+
+}
+
+function addImageCol() {
+  var rawimg = ui.createElement('img', 'rawimage');
+  rawimg.setAttribute('src', 'img/example/abba-1.png');
+  rawimg.setAttribute('class', 'imcenter');
+  var col0 = document.getElementById('imagerow-col0');
+  var attr = col0.getAttribute('class');
+  col0.setAttribute('class', attr + ' well');
+  col0.appendChild(rawimg);
+
+  col0.appendChild(ui.hr());
+
+  var pxlimg = ui.createElement('img', 'pxlimage');
+  pxlimg.setAttribute('src', 'img/example/abba-1-pxltd.JPG');
+  pxlimg.setAttribute('class', 'imcenter');
+  var col1 = document.getElementById('imagerow-col1');
+  var attr = col1.getAttribute('class');
+  col1.setAttribute('class', attr + ' well');
+  col1.appendChild(pxlimg);
+  col1.appendChild(ui.hr());
+}
+
 
 
 function getSystemInfo() {

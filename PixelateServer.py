@@ -32,12 +32,29 @@ class PixelateServer(object):
         if uploaddir: 
             self.uploaddir = uploaddir
             
+    @HttpServer.expose
+    def index(self):
+        """
+        Sources the index file
+        :return: raw index file
+        """
 
-        
+        return open(os.path.join(self.staticdir, "index.html"))
+
+    @HttpServer.expose
+    def imageupload(self, upfile):
+        """
+        Handles image upload
+        :return:
+        """
+        uploaddir = os.path.join(self.staticdir, 'uploads')
+        if not os.path.exists(uploaddir):
+            logging.info('Upload directory does not exist, creating %s' % (uploaddir))
+            os.makedirs(uploaddir)
 
 
 
-# main code section   
+# main code section
 if __name__ == '__main__':
     port = 9005
     www = os.path.join(os.getcwd(), 'ui_www')

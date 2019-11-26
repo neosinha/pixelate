@@ -6,7 +6,7 @@ function appNavBar() {
 	//navbar = ui.navbar("navarea", '<img align="middle" class="logo-img" src="img/logo-header-psi.png"></img>');
 	navbar = ui.navbar("navarea", '<span class="brand">'+
 								   '<img class="logo-img img-rounded pull-left" src="img/big-datax64.png"></img>'+
-								   '<span class="brandtext">NetPlanner</span>'+
+								   '<span class="brandtext">PixelateMe</span>'+
 								   '</span>' + 
 								   '<span class="clock" id="clock">Clock</span>'
 								   );

@@ -100,8 +100,8 @@
 .imcenter {
 	display : inline-block; 
 	position: relative; 
-	left: 40%; 
-	top: 50%;
+	left:30%;
+	top: 10%;
 }
 
 .statscounter {

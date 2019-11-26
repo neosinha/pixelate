@@ -732,6 +732,22 @@ var Bootstrap  = function () {
 		
 		return div;
 	}
+
+	this.addRowCol = function (rowid, colcount) {
+		var div = this.createElement('div', rowid);
+		div.setAttribute('class', 'row');
+
+        var colsize = 12/colcount;
+        console.log('Column COunt: '+ colsize);
+        for (idx=0; idx < colcount; idx++) {
+            var colx = this.createElement('div', rowid+'-col'+idx);
+            colx.setAttribute('class', 'col-sm-'+colsize);
+            div.appendChild(colx);
+        }
+
+		return div;
+	}
+
 	
 	
 	/**
