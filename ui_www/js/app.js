@@ -29,14 +29,26 @@ function updatePerSecond() {
 }
 
 function initUpload() {
-    $('#imgbtn').fileupload({
+    var jxhr = $('#imgbtn').fileupload({
         dataType: 'image',
         done: function (e, data) {
-            $.each(data.result.files, function (index, file) {
-                $('<p/>').text(file.name).appendTo(document.body);
+            $.each(data.files, function (index, file) {
+                alert("Fileupload...");
+                $('<p/>').text(file.name).appendTo('#files');
             });
-        }
-    });
+        },
+        progressall: function (e, data) {
+        var progress = parseInt(data.loaded / data.total * 100, 10);
+        $('#progress .progress-bar').css(
+            'width',
+            progress + '%'
+        );
+    }
+    }).bind('fileuploadcompleted',
+            function (e, data) {
+                alert("Message","Title")
+               }
+           );
 }
 
 
@@ -72,28 +84,34 @@ function loadLandingView() {
 }
 
 function addButtonCol() {
-var upbtn = ui.createElement('a', 'upload');
-upbtn.setAttribute('class', 'btn btn-block btn-warning');
-upbtn.innerText = 'Upload Image';
+    var upbtn = ui.createElement('a', 'upload');
+    upbtn.setAttribute('class', 'btn btn-block btn-warning');
+    upbtn.innerText = 'Upload Image';
 
-var icon = ui.createElement('span', 'uploadicon');
-icon.setAttribute('class', 'glyphicon glyphicon-cloud-upload');
-upbtn.appendChild(icon);
+    var icon = ui.createElement('span', 'uploadicon');
+    icon.setAttribute('class', 'glyphicon glyphicon-cloud-upload');
+    upbtn.appendChild(icon);
 
-var btn = document.getElementById('buttonrow-col0');
-var fl = ui.createElement('input', 'imgbtn');
-fl.setAttribute('type', 'file');
-fl.setAttribute('name', 'upfile');
-fl.setAttribute('data-url', '/imgupload');
+    var formx = ui.createElement('form', 'formidx');
+    formx.setAttribute('action', '/imgupload');
 
-btn.appendChild(fl);
-btn.appendChild(ui.br());
+    var btn = document.getElementById('buttonrow-col0');
+    var fl = ui.createElement('input', 'imgbtn');
+    fl.setAttribute('type', 'file');
+    fl.setAttribute('name', 'upfile');
+    fl.setAttribute('data-url', '/imgupload');
+    formx.appendChild(fl);
 
-btn.appendChild(upbtn);
+    btn.appendChild(fl);
+    btn.appendChild(ui.br());
 
+    btn.appendChild(upbtn);
 }
 
-function upload
+function upload() {
+    console.log('Uploading image..');
+
+}
 
 function addImageCol() {
   var rawimg = ui.createElement('img', 'rawimage');
@@ -114,6 +132,9 @@ function addImageCol() {
   col1.setAttribute('class', attr + ' well');
   col1.appendChild(pxlimg);
   col1.appendChild(ui.hr());
+
+  var prx = ui.createElement('div', 'progress');
+  col1.appendChild(prx);
 }
 
 
