@@ -100,8 +100,10 @@
 .imcenter {
 	display : inline-block; 
 	position: relative; 
-	left:30%;
+	left:10%;
 	top: 10%;
+	width: 80%;
+    height: 90%;
 }
 
 .statscounter {
@@ -134,7 +136,7 @@
 
 .modal-dialog {
 	position: relative;
-	margin-left: 30%;
+	/*margin-left: 50%;*/
 	margin-top: 20% ;
 }
 

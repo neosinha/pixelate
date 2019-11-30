@@ -33,7 +33,7 @@ class PixelateServer(object):
             self.uploaddir = uploaddir
 
         # Initiallize FaceDetectCore
-        self.faceDetector = PixelateCore()
+        self.pxlcore = PixelateCore()
             
     @HttpServer.expose
     def index(self):
@@ -50,38 +50,49 @@ class PixelateServer(object):
         Handles image upload
         :return:
         """
-        uploaddir = os.path.join(self.staticdir, 'uploads')
+        self.uploaddir = os.path.join(self.staticdir, 'uploads')
         print("UploadFile: Name: %s, Type: %s " % (upfile.filename, upfile.content_type))
-        if not os.path.exists(uploaddir):
-            logging.info('Upload directory does not exist, creating %s' % (uploaddir))
-            os.makedirs(uploaddir)
+        fext = str(upfile.content_type).split('/')[1]
+        print("Extension: %s" % (fext))
+
+        if not os.path.exists(self.uploaddir):
+            logging.info('Upload directory does not exist, creating %s' % (self.uploaddir))
+            os.makedirs(self.uploaddir)
 
         if upfile is not None:
-            ofile = os.path.join(uploaddir, upfile.filename)
+            tsx = self.epoch()
+            ofile = os.path.join(self.uploaddir, "%s.%s" % (tsx, fext))
             print("Local filename: %s" % (ofile))
             ofilex = open(ofile, "wb")
             shutil.copyfileobj(upfile.file, ofilex)
-            logging.info("Copied tempfile into templocation %s" % (ofilex))
+            logging.info("Copied uploaded file as %s" % (ofilex))
             ofilex.close()
             uptstamp = self.epoch()
-            pxfile = self.detectFaces(ifile = ofile)
+            pxfaces = self.pixelatefaces(ifile=upfile.filename)
             enstamp = self.epoch()
+            wwwbase = os.path.basename(self.staticdir)
+
             out = {"start": uptstamp,
-                   'orgimg' : ofile,
-                   'pxlimg' : pxfile ,
+                   'orgimg': "uploads/%s" % (upfile.filename),
+                   'pxlimg': "pxltd/%s" % (pxfaces['outfile']),
                    'end' : enstamp}
+
             return json.dumps(out)
         else:
             return "Parameter: \"theFile\" was not defined"
 
-    def detectFaces(self, ifile):
+    @HttpServer.expose
+    def pixelatefaces(self, ifile):
         """
 
         :return:
         """
-        ofile = ifile
-
-        return ofile
+        print("Checking upfile:  %s" % (ifile))
+        rawimg = os.path.join(self.uploaddir, ifile)
+        pxlfaces = self.pxlcore.facedetectFrame(imgpath=rawimg,
+                                                imgaeName=ifile,
+                                                wwwbase=self.staticdir)
+        return pxlfaces
 
     def epoch(self):
         """
