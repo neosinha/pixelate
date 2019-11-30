@@ -66,8 +66,8 @@ function loadLandingView() {
 		
 		//jum.appendChild(farStatusForm());
         //jum.appendChild(guagearea);
-        jum.appendChild(crow);
         jum.appendChild(brow);
+        jum.appendChild(crow);
 		jum.appendChild(resultarea);
 		
 		//jum.appendChild(xmlarea);
@@ -83,6 +83,7 @@ function loadLandingView() {
 		
 }
 
+//Add Buttons
 function addButtonCol() {
     var upbtn = ui.createElement('a', 'upload');
     upbtn.setAttribute('class', 'btn btn-block btn-warning');
