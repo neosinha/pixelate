@@ -72,9 +72,13 @@ class PixelateServer(object):
             enstamp = self.epoch()
             wwwbase = os.path.basename(self.staticdir)
 
+            # out = {"start": uptstamp,
+            #       'orgimg': "uploads/%s" % (upfile.filename),
+            #       'pxlimg': "pxltd/%s" % (pxfaces['outfile']),
+            #       'end' : enstamp}
+
             out = {"start": uptstamp,
-                   'orgimg': "uploads/%s" % (upfile.filename),
-                   'pxlimg': "pxltd/%s" % (pxfaces['outfile']),
+                   'upimg': "%s.%s" % (tsx, fext),
                    'end' : enstamp}
 
             return json.dumps(out)
@@ -92,7 +96,8 @@ class PixelateServer(object):
         pxlfaces = self.pxlcore.facedetectFrame(imgpath=rawimg,
                                                 imgaeName=ifile,
                                                 wwwbase=self.staticdir)
-        return pxlfaces
+
+        return json.dumps(pxlfaces)
 
     def epoch(self):
         """

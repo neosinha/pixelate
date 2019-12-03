@@ -85,7 +85,8 @@ class PixelateCore(object):
         for (x, y, w, h) in faces:
             # crop out each detected face with a pixelboundry
             crop_img = frame[y + 2:y + h - 2, x + 2:x + w - 2]
-            facearray.append({x, y, w, h})
+            facearray.append({'x': str(x), 'y': str(y), 'w': str(w), 'h': str(h)})
+
             # Make a pixelating canvas
             px_wd = int(w / 16)
             px_ht = int(h / 16)
