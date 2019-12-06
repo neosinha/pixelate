@@ -275,8 +275,6 @@ function addImageCol() {
   col0.appendChild(ui.hr());
 
 
-
-
   var pxlimg = ui.createElement('img', 'pxlimage');
   pxlimg.setAttribute('src', 'img/example/abba-1-pxltd.JPG');
   pxlimg.setAttribute('class', 'imcenter');
@@ -285,6 +283,7 @@ function addImageCol() {
   col1.setAttribute('class', attr + ' well');
   col1.appendChild(pxlimg);
   col1.appendChild(ui.hr());
+
 }
 
 
