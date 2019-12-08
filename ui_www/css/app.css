@@ -98,14 +98,18 @@
 }
 
 .imcenter {
-	display : inline-block; 
-	position: relative;
-    left : 5%;
+	display : block;
+	top: 50%;
+	/*position: relative;*/
+    /*left : 5%;
     right: 5%;
-
+*/
 	margin-left: auto;
+	margin-top: auto;
     margin-right: auto;
+    margin-bottom: auto;
 
+    width: 50%;
 	max-width: 480px;
     max-height: 480px;
 

@@ -71,17 +71,22 @@ class PixelateCore(object):
             grayFrame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
         # Execute the FaceDetectionModel
+        self.faceCascade.detectMultiScale()
         faces = self.faceCascade.detectMultiScale(
             grayFrame,
             scaleFactor=1.01,
             minNeighbors=18,
-            minSize=(12, 12)
-            # flags = cv2.CV_HAAR_SCALE_IMAGE
+            minSize=(16, 16)
         )
 
         print("Faces: %s" % (faces))
         # Iterate over detected aces
         facearray = []
+
+        for (x, y, w, h) in faces:
+            print(x, y, w, h)
+
+
         for (x, y, w, h) in faces:
             # crop out each detected face with a pixelboundry
             crop_img = frame[y + 2:y + h - 2, x + 2:x + w - 2]

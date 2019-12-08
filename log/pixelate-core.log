@@ -2668,3 +2668,429 @@ Request Headers:
 2019-12-03 00:29:54,068 127.0.0.1 - - [03/Dec/2019:00:29:54] "POST /pixelatefaces?ifile=1575361792332.png HTTP/1.1" 200 99 "http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
 2019-12-03 00:29:54,072 127.0.0.1 - - [03/Dec/2019:00:29:54] "GET /pxltd/1575361794055-pxltd.JPG HTTP/1.1" 200 72653 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
 2019-12-03 00:29:56,250 127.0.0.1 - - [03/Dec/2019:00:29:56] "GET /pxltd/1575361794055-pxltd.JPG HTTP/1.1" 200 72653 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-03 00:38:30,193 [03/Dec/2019:00:38:30] ENGINE Restarting because /Users/navendusinha/PycharmProjects/pixelate/PixelateServer.py changed.
+2019-12-03 00:38:30,193 [03/Dec/2019:00:38:30] ENGINE Stopped thread 'Autoreloader'.
+2019-12-03 00:38:30,193 [03/Dec/2019:00:38:30] ENGINE Bus STOPPING
+2019-12-03 00:38:30,195 [03/Dec/2019:00:38:30] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 6001)) shut down
+2019-12-03 00:38:30,196 [03/Dec/2019:00:38:30] ENGINE Bus STOPPED
+2019-12-03 00:38:30,196 [03/Dec/2019:00:38:30] ENGINE Bus EXITING
+2019-12-03 00:38:30,196 [03/Dec/2019:00:38:30] ENGINE Bus EXITED
+2019-12-03 00:38:30,243 [03/Dec/2019:00:38:30] ENGINE Waiting for child threads to terminate...
+2019-12-03 00:38:30,244 [03/Dec/2019:00:38:30] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/pixelate/PixelateServer.py
+2019-12-03 00:38:32,721 Static dir: /Users/navendusinha/PycharmProjects/pixelate/ui_www 
+2019-12-03 00:38:32,721 Static directory for web-content: /Users/navendusinha/PycharmProjects/pixelate/ui_www
+2019-12-03 00:38:32,739 [03/Dec/2019:00:38:32] ENGINE Listening for SIGTERM.
+2019-12-03 00:38:32,739 [03/Dec/2019:00:38:32] ENGINE Listening for SIGHUP.
+2019-12-03 00:38:32,739 [03/Dec/2019:00:38:32] ENGINE Listening for SIGUSR1.
+2019-12-03 00:38:32,740 [03/Dec/2019:00:38:32] ENGINE Bus STARTING
+2019-12-03 00:38:32,740 [03/Dec/2019:00:38:32] ENGINE Started monitor thread 'Autoreloader'.
+2019-12-03 00:38:32,850 [03/Dec/2019:00:38:32] ENGINE Serving on http://127.0.0.1:6001
+2019-12-03 00:38:32,851 [03/Dec/2019:00:38:32] ENGINE Bus STARTED
+2019-12-07 11:25:49,052 [07/Dec/2019:11:25:49] ENGINE Keyboard Interrupt: shutting down bus
+2019-12-07 11:25:49,072 [07/Dec/2019:11:25:49] ENGINE Bus STOPPING
+2019-12-07 11:25:49,100 [07/Dec/2019:11:25:49] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 6001)) shut down
+2019-12-07 11:25:49,101 [07/Dec/2019:11:25:49] ENGINE Stopped thread 'Autoreloader'.
+2019-12-07 11:25:49,101 [07/Dec/2019:11:25:49] ENGINE Bus STOPPED
+2019-12-07 11:25:49,101 [07/Dec/2019:11:25:49] ENGINE Bus EXITING
+2019-12-07 11:25:49,101 [07/Dec/2019:11:25:49] ENGINE Bus EXITED
+2019-12-07 11:25:49,101 [07/Dec/2019:11:25:49] ENGINE Waiting for child threads to terminate...
+2019-12-08 00:33:34,695 Static dir: /Users/navendusinha/PycharmProjects/pixelate/ui_www 
+2019-12-08 00:33:34,696 Static directory for web-content: /Users/navendusinha/PycharmProjects/pixelate/ui_www
+2019-12-08 00:33:34,719 [08/Dec/2019:00:33:34] ENGINE Listening for SIGTERM.
+2019-12-08 00:33:34,719 [08/Dec/2019:00:33:34] ENGINE Listening for SIGHUP.
+2019-12-08 00:33:34,719 [08/Dec/2019:00:33:34] ENGINE Listening for SIGUSR1.
+2019-12-08 00:33:34,719 [08/Dec/2019:00:33:34] ENGINE Bus STARTING
+2019-12-08 00:33:34,720 [08/Dec/2019:00:33:34] ENGINE Started monitor thread 'Autoreloader'.
+2019-12-08 00:33:34,827 [08/Dec/2019:00:33:34] ENGINE Serving on http://127.0.0.1:6001
+2019-12-08 00:33:34,827 [08/Dec/2019:00:33:34] ENGINE Bus STARTED
+2019-12-08 00:33:44,383 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /css/bootstrap-slider.min.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,384 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /css/rangeslider.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,385 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /justguage/justgage.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,386 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,387 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /js/bootstrap-slider.min.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,388 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,392 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /jqueryupload/vendor/jquery.ui.widget.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,394 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /js/bootstrapui.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,394 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /justguage/raphael-2.1.4.min.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,396 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /ajaxFuncs/ajaxComm.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,396 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /js/sevenSeg.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,396 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /jqueryupload/jquery.iframe-transport.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,397 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /jqueryupload/jquery.fileupload.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,400 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /js/views.app.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,402 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /js/mqttInteractions.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,404 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /css/trafficlight.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,406 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /cguage/gauge.min.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,407 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /js/app.js HTTP/1.1" 200 8518 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,408 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /js/filefuncs.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,409 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /ajaxFuncs/ajax/ajaxWorker.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,412 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /img/favicon/favicon-96x96.png HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,412 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /img/favicon/android-icon-192x192.png HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,415 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /ajaxFuncs/ajax/ajaxFuncs.js HTTP/1.1" 304 - "http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,416 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /img/favicon/favicon-32x32.png HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,418 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /img/favicon/favicon-16x16.png HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,418 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /img/prog-linear.gif HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,420 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /img/big-datax64.png HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,421 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /img/example/abba-1-pxltd.JPG HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,423 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /img/example/abba-1.png HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,509 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /css/rangeslider.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,510 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,512 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /js/bootstrap-slider.min.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,514 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /justguage/raphael-2.1.4.min.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,515 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /js/sevenSeg.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,515 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /css/bootstrap-slider.min.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,515 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /justguage/justgage.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,518 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /jqueryupload/vendor/jquery.ui.widget.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,521 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /ajaxFuncs/ajaxComm.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,522 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /jqueryupload/jquery.fileupload.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,523 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /jqueryupload/jquery.iframe-transport.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,524 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /js/bootstrapui.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,526 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /js/app.js HTTP/1.1" 200 8518 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,529 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /js/mqttInteractions.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,529 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /js/views.app.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,531 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /cguage/gauge.min.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,532 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /js/filefuncs.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,535 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /css/trafficlight.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,535 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /img/prog-linear.gif HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,624 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /ajaxFuncs/ajax/ajaxWorker.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,632 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /img/big-datax64.png HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,641 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /img/example/abba-1.png HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,642 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /img/example/abba-1-pxltd.JPG HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:44,677 127.0.0.1 - - [08/Dec/2019:00:33:44] "GET /ajaxFuncs/ajax/ajaxFuncs.js HTTP/1.1" 304 - "http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:57,338 127.0.0.1 - - [08/Dec/2019:00:33:57] "GET /img/file_uploading.gif HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:57,413 Copied uploaded file as <_io.BufferedWriter name='/Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575794037411.jpeg'>
+2019-12-08 00:33:57,415 127.0.0.1 - - [08/Dec/2019:00:33:57] "POST /imgupload HTTP/1.1" 200 77 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:33:57,450 Converting /Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575794037411.jpeg to grayscale
+2019-12-08 00:34:00,108 Writing image file, /Users/navendusinha/PycharmProjects/pixelate/ui_www/pxltd/1575794040108-pxltd.JPG
+2019-12-08 00:34:00,133 127.0.0.1 - - [08/Dec/2019:00:34:00] "POST /pixelatefaces?ifile=1575794037411.jpeg HTTP/1.1" 200 146 "http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:34:00,137 127.0.0.1 - - [08/Dec/2019:00:34:00] "GET /pxltd/1575794040108-pxltd.JPG HTTP/1.1" 200 265780 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:34:39,322 127.0.0.1 - - [08/Dec/2019:00:34:39] "GET /pxltd/1575794040108-pxltd.JPG HTTP/1.1" 200 265780 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,171 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,185 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /css/rangeslider.css HTTP/1.1" 200 2431 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,209 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /justguage/justgage.js HTTP/1.1" 200 38111 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,213 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /js/sevenSeg.js HTTP/1.1" 200 11258 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,215 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /css/app.css HTTP/1.1" 200 4012 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,217 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /js/bootstrap-slider.min.js HTTP/1.1" 200 38636 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,218 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /css/bootstrap-slider.min.css HTTP/1.1" 200 9336 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,219 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /justguage/raphael-2.1.4.min.js HTTP/1.1" 200 92764 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,222 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /jqueryupload/jquery.iframe-transport.js HTTP/1.1" 200 8546 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,223 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /jqueryupload/vendor/jquery.ui.widget.js HTTP/1.1" 200 22757 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,226 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /jqueryupload/jquery.fileupload.js HTTP/1.1" 200 56206 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,226 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /js/bootstrapui.js HTTP/1.1" 200 20426 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,227 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /ajaxFuncs/ajaxComm.js HTTP/1.1" 200 1797 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,237 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /js/views.app.js HTTP/1.1" 200 2056 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,238 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /js/app.js HTTP/1.1" 200 8518 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,239 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /js/mqttInteractions.js HTTP/1.1" 200 1664 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,239 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /css/trafficlight.css HTTP/1.1" 200 2498 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,240 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /cguage/gauge.min.js HTTP/1.1" 200 43919 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,241 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /js/filefuncs.js HTTP/1.1" 200 1923 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,243 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /img/prog-linear.gif HTTP/1.1" 200 2892 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,402 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /ajaxFuncs/ajax/ajaxWorker.js HTTP/1.1" 200 142 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,404 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /img/big-datax64.png HTTP/1.1" 200 7336 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,409 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /img/example/abba-1-pxltd.JPG HTTP/1.1" 200 30516 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,409 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /img/example/abba-1.png HTTP/1.1" 200 64820 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,435 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /ajaxFuncs/ajax/ajaxFuncs.js HTTP/1.1" 200 247 "http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,621 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /img/favicon/android-icon-192x192.png HTTP/1.1" 200 14819 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:35:22,622 127.0.0.1 - - [08/Dec/2019:00:35:22] "GET /img/favicon/favicon-96x96.png HTTP/1.1" 200 6088 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:36:22,177 127.0.0.1 - - [08/Dec/2019:00:36:22] "GET /img/favicon/favicon-16x16.png HTTP/1.1" 200 1201 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:36:22,177 127.0.0.1 - - [08/Dec/2019:00:36:22] "GET /img/favicon/favicon-32x32.png HTTP/1.1" 200 1732 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:42:12,863 127.0.0.1 - - [08/Dec/2019:00:42:12] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:42:12,871 127.0.0.1 - - [08/Dec/2019:00:42:12] "GET /css/app.css HTTP/1.1" 200 4014 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:42:12,872 127.0.0.1 - - [08/Dec/2019:00:42:12] "GET /js/app.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:42:25,598 127.0.0.1 - - [08/Dec/2019:00:42:25] "GET /img/file_uploading.gif HTTP/1.1" 200 4936 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:42:25,665 Copied uploaded file as <_io.BufferedWriter name='/Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575794545663.jpeg'>
+2019-12-08 00:42:25,665 127.0.0.1 - - [08/Dec/2019:00:42:25] "POST /imgupload HTTP/1.1" 200 77 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:42:25,697 Converting /Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575794545663.jpeg to grayscale
+2019-12-08 00:42:27,662 Writing image file, /Users/navendusinha/PycharmProjects/pixelate/ui_www/pxltd/1575794547662-pxltd.JPG
+2019-12-08 00:42:27,684 127.0.0.1 - - [08/Dec/2019:00:42:27] "POST /pixelatefaces?ifile=1575794545663.jpeg HTTP/1.1" 200 146 "http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:42:27,688 127.0.0.1 - - [08/Dec/2019:00:42:27] "GET /pxltd/1575794547662-pxltd.JPG HTTP/1.1" 200 265780 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:42:56,825 127.0.0.1 - - [08/Dec/2019:00:42:56] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:42:56,832 127.0.0.1 - - [08/Dec/2019:00:42:56] "GET /css/app.css HTTP/1.1" 200 4017 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:23,298 127.0.0.1 - - [08/Dec/2019:00:44:23] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:23,306 127.0.0.1 - - [08/Dec/2019:00:44:23] "GET /css/app.css HTTP/1.1" 200 4012 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:23,308 127.0.0.1 - - [08/Dec/2019:00:44:23] "GET /js/app.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:38,775 127.0.0.1 - - [08/Dec/2019:00:44:38] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:38,781 127.0.0.1 - - [08/Dec/2019:00:44:38] "GET /css/app.css HTTP/1.1" 200 4016 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:39,998 127.0.0.1 - - [08/Dec/2019:00:44:39] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:40,005 127.0.0.1 - - [08/Dec/2019:00:44:40] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,016 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,030 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /css/app.css HTTP/1.1" 200 4016 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,031 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /css/rangeslider.css HTTP/1.1" 200 2431 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,042 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /css/bootstrap-slider.min.css HTTP/1.1" 200 9336 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,044 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /js/sevenSeg.js HTTP/1.1" 200 11258 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,045 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /js/bootstrap-slider.min.js HTTP/1.1" 200 38636 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,046 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /justguage/raphael-2.1.4.min.js HTTP/1.1" 200 92764 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,046 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /justguage/justgage.js HTTP/1.1" 200 38111 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,047 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /jqueryupload/vendor/jquery.ui.widget.js HTTP/1.1" 200 22757 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,049 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /jqueryupload/jquery.iframe-transport.js HTTP/1.1" 200 8546 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,057 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /ajaxFuncs/ajaxComm.js HTTP/1.1" 200 1797 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,057 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /js/bootstrapui.js HTTP/1.1" 200 20426 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,057 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /js/app.js HTTP/1.1" 200 8518 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,058 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /js/views.app.js HTTP/1.1" 200 2056 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,059 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /jqueryupload/jquery.fileupload.js HTTP/1.1" 200 56206 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,061 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /js/mqttInteractions.js HTTP/1.1" 200 1664 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,066 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /img/prog-linear.gif HTTP/1.1" 200 2892 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,066 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /css/trafficlight.css HTTP/1.1" 200 2498 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,067 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /cguage/gauge.min.js HTTP/1.1" 200 43919 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,068 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /js/filefuncs.js HTTP/1.1" 200 1923 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,197 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /ajaxFuncs/ajax/ajaxWorker.js HTTP/1.1" 200 142 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,202 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /img/big-datax64.png HTTP/1.1" 200 7336 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,206 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /img/example/abba-1-pxltd.JPG HTTP/1.1" 200 30516 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,206 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /img/example/abba-1.png HTTP/1.1" 200 64820 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:44:44,215 127.0.0.1 - - [08/Dec/2019:00:44:44] "GET /ajaxFuncs/ajax/ajaxFuncs.js HTTP/1.1" 200 247 "http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:08,700 127.0.0.1 - - [08/Dec/2019:00:45:08] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:08,702 127.0.0.1 - - [08/Dec/2019:00:45:08] "GET /css/app.css HTTP/1.1" 200 4032 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:08,710 127.0.0.1 - - [08/Dec/2019:00:45:08] "GET /css/app.css HTTP/1.1" 200 4032 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:23,053 127.0.0.1 - - [08/Dec/2019:00:45:23] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:23,054 127.0.0.1 - - [08/Dec/2019:00:45:23] "GET /css/app.css HTTP/1.1" 200 4031 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:23,060 127.0.0.1 - - [08/Dec/2019:00:45:23] "GET /css/app.css HTTP/1.1" 200 4031 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:51,203 127.0.0.1 - - [08/Dec/2019:00:45:51] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:51,204 127.0.0.1 - - [08/Dec/2019:00:45:51] "GET /css/app.css HTTP/1.1" 200 4076 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:51,210 127.0.0.1 - - [08/Dec/2019:00:45:51] "GET /css/app.css HTTP/1.1" 200 4076 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:52,056 127.0.0.1 - - [08/Dec/2019:00:45:52] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:52,056 127.0.0.1 - - [08/Dec/2019:00:45:52] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:52,059 127.0.0.1 - - [08/Dec/2019:00:45:52] "GET /js/app.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:52,064 127.0.0.1 - - [08/Dec/2019:00:45:52] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:52,064 127.0.0.1 - - [08/Dec/2019:00:45:52] "GET /js/app.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:52,802 127.0.0.1 - - [08/Dec/2019:00:45:52] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:52,802 127.0.0.1 - - [08/Dec/2019:00:45:52] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:52,809 127.0.0.1 - - [08/Dec/2019:00:45:52] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:56,971 127.0.0.1 - - [08/Dec/2019:00:45:56] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:56,987 127.0.0.1 - - [08/Dec/2019:00:45:56] "GET /css/app.css HTTP/1.1" 200 4076 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:56,990 127.0.0.1 - - [08/Dec/2019:00:45:56] "GET /css/bootstrap-slider.min.css HTTP/1.1" 200 9336 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:56,990 127.0.0.1 - - [08/Dec/2019:00:45:56] "GET /css/rangeslider.css HTTP/1.1" 200 2431 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:56,994 127.0.0.1 - - [08/Dec/2019:00:45:56] "GET /js/bootstrap-slider.min.js HTTP/1.1" 200 38636 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:56,996 127.0.0.1 - - [08/Dec/2019:00:45:56] "GET /justguage/justgage.js HTTP/1.1" 200 38111 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:56,997 127.0.0.1 - - [08/Dec/2019:00:45:56] "GET /jqueryupload/vendor/jquery.ui.widget.js HTTP/1.1" 200 22757 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:56,997 127.0.0.1 - - [08/Dec/2019:00:45:56] "GET /js/sevenSeg.js HTTP/1.1" 200 11258 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:56,999 127.0.0.1 - - [08/Dec/2019:00:45:56] "GET /justguage/raphael-2.1.4.min.js HTTP/1.1" 200 92764 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,000 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /jqueryupload/jquery.iframe-transport.js HTTP/1.1" 200 8546 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,006 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /jqueryupload/jquery.fileupload.js HTTP/1.1" 200 56206 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,007 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /ajaxFuncs/ajaxComm.js HTTP/1.1" 200 1797 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,008 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /js/app.js HTTP/1.1" 200 8518 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,009 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /js/views.app.js HTTP/1.1" 200 2056 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,011 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /js/bootstrapui.js HTTP/1.1" 200 20426 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,012 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /js/mqttInteractions.js HTTP/1.1" 200 1664 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,015 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /css/trafficlight.css HTTP/1.1" 200 2498 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,015 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /js/filefuncs.js HTTP/1.1" 200 1923 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,016 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /cguage/gauge.min.js HTTP/1.1" 200 43919 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,017 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /img/prog-linear.gif HTTP/1.1" 200 2892 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,099 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /ajaxFuncs/ajax/ajaxWorker.js HTTP/1.1" 200 142 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,101 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /img/big-datax64.png HTTP/1.1" 200 7336 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,106 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /img/example/abba-1-pxltd.JPG HTTP/1.1" 200 30516 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,106 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /img/example/abba-1.png HTTP/1.1" 200 64820 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,111 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /ajaxFuncs/ajax/ajaxFuncs.js HTTP/1.1" 200 247 "http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,121 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /img/favicon/favicon-96x96.png HTTP/1.1" 200 6088 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:45:57,122 127.0.0.1 - - [08/Dec/2019:00:45:57] "GET /img/favicon/android-icon-192x192.png HTTP/1.1" 200 14819 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:46:53,297 127.0.0.1 - - [08/Dec/2019:00:46:53] "GET /img/favicon/favicon-32x32.png HTTP/1.1" 200 1732 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:46:53,298 127.0.0.1 - - [08/Dec/2019:00:46:53] "GET /img/favicon/favicon-16x16.png HTTP/1.1" 200 1201 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:47:00,507 127.0.0.1 - - [08/Dec/2019:00:47:00] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:47:00,508 127.0.0.1 - - [08/Dec/2019:00:47:00] "GET /css/app.css HTTP/1.1" 200 4075 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:47:00,514 127.0.0.1 - - [08/Dec/2019:00:47:00] "GET /css/app.css HTTP/1.1" 200 4075 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:47:25,993 127.0.0.1 - - [08/Dec/2019:00:47:25] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:47:25,995 127.0.0.1 - - [08/Dec/2019:00:47:25] "GET /css/app.css HTTP/1.1" 200 4087 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:47:25,999 127.0.0.1 - - [08/Dec/2019:00:47:25] "GET /js/app.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:47:26,006 127.0.0.1 - - [08/Dec/2019:00:47:26] "GET /js/app.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:47:26,006 127.0.0.1 - - [08/Dec/2019:00:47:26] "GET /css/app.css HTTP/1.1" 200 4087 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:47:27,273 127.0.0.1 - - [08/Dec/2019:00:47:27] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:47:27,276 127.0.0.1 - - [08/Dec/2019:00:47:27] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:47:27,281 127.0.0.1 - - [08/Dec/2019:00:47:27] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:47:41,196 127.0.0.1 - - [08/Dec/2019:00:47:41] "GET /img/file_uploading.gif HTTP/1.1" 200 4936 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:47:41,244 Copied uploaded file as <_io.BufferedWriter name='/Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575794861242.png'>
+2019-12-08 00:47:41,245 127.0.0.1 - - [08/Dec/2019:00:47:41] "POST /imgupload HTTP/1.1" 200 76 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:47:41,270 Converting /Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575794861242.png to grayscale
+2019-12-08 00:47:42,804 Writing image file, /Users/navendusinha/PycharmProjects/pixelate/ui_www/pxltd/1575794862804-pxltd.JPG
+2019-12-08 00:47:42,821 127.0.0.1 - - [08/Dec/2019:00:47:42] "POST /pixelatefaces?ifile=1575794861242.png HTTP/1.1" 200 98 "http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:47:42,825 127.0.0.1 - - [08/Dec/2019:00:47:42] "GET /pxltd/1575794862804-pxltd.JPG HTTP/1.1" 200 128706 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:51:20,243 127.0.0.1 - - [08/Dec/2019:00:51:20] "GET /pxltd/1575794862804-pxltd.JPG HTTP/1.1" 200 128706 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:51:20,269 127.0.0.1 - - [08/Dec/2019:00:51:20] "GET /favicon.ico HTTP/1.1" 200 1406 "http://127.0.0.1:6001/pxltd/1575794862804-pxltd.JPG" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:52:32,623 127.0.0.1 - - [08/Dec/2019:00:52:32] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:52:32,625 127.0.0.1 - - [08/Dec/2019:00:52:32] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:52:32,628 127.0.0.1 - - [08/Dec/2019:00:52:32] "GET /js/app.js HTTP/1.1" 200 8514 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:52:32,630 127.0.0.1 - - [08/Dec/2019:00:52:32] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:52:32,632 127.0.0.1 - - [08/Dec/2019:00:52:32] "GET /js/app.js HTTP/1.1" 200 8514 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:52:40,850 Copied uploaded file as <_io.BufferedWriter name='/Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575795160847.jpeg'>
+2019-12-08 00:52:40,851 127.0.0.1 - - [08/Dec/2019:00:52:40] "POST /imgupload HTTP/1.1" 200 77 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:52:40,881 Converting /Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575795160847.jpeg to grayscale
+2019-12-08 00:52:42,973 Writing image file, /Users/navendusinha/PycharmProjects/pixelate/ui_www/pxltd/1575795162973-pxltd.JPG
+2019-12-08 00:52:42,995 127.0.0.1 - - [08/Dec/2019:00:52:42] "POST /pixelatefaces?ifile=1575795160847.jpeg HTTP/1.1" 200 146 "http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:52:43,001 127.0.0.1 - - [08/Dec/2019:00:52:43] "GET /pxltd/1575795162973-pxltd.JPG HTTP/1.1" 200 265780 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:53:42,114 127.0.0.1 - - [08/Dec/2019:00:53:42] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:53:42,116 127.0.0.1 - - [08/Dec/2019:00:53:42] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:53:42,120 127.0.0.1 - - [08/Dec/2019:00:53:42] "GET /js/app.js HTTP/1.1" 200 8516 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:53:42,133 127.0.0.1 - - [08/Dec/2019:00:53:42] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:53:42,139 127.0.0.1 - - [08/Dec/2019:00:53:42] "GET /js/app.js HTTP/1.1" 200 8516 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:53:50,018 Copied uploaded file as <_io.BufferedWriter name='/Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575795230016.jpeg'>
+2019-12-08 00:53:50,019 127.0.0.1 - - [08/Dec/2019:00:53:50] "POST /imgupload HTTP/1.1" 200 77 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:53:50,053 Converting /Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575795230016.jpeg to grayscale
+2019-12-08 00:53:52,277 Writing image file, /Users/navendusinha/PycharmProjects/pixelate/ui_www/pxltd/1575795232277-pxltd.JPG
+2019-12-08 00:53:52,300 127.0.0.1 - - [08/Dec/2019:00:53:52] "POST /pixelatefaces?ifile=1575795230016.jpeg HTTP/1.1" 200 146 "http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:53:52,304 127.0.0.1 - - [08/Dec/2019:00:53:52] "GET /pxltd/1575795232277-pxltd.JPG HTTP/1.1" 200 265780 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:55:11,484 127.0.0.1 - - [08/Dec/2019:00:55:11] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:55:11,486 127.0.0.1 - - [08/Dec/2019:00:55:11] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:55:11,488 127.0.0.1 - - [08/Dec/2019:00:55:11] "GET /js/app.js HTTP/1.1" 200 8568 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:55:11,500 127.0.0.1 - - [08/Dec/2019:00:55:11] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:55:11,506 127.0.0.1 - - [08/Dec/2019:00:55:11] "GET /js/app.js HTTP/1.1" 200 8568 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:55:33,095 127.0.0.1 - - [08/Dec/2019:00:55:33] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:55:33,100 127.0.0.1 - - [08/Dec/2019:00:55:33] "GET /js/app.js HTTP/1.1" 200 8567 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:55:33,136 127.0.0.1 - - [08/Dec/2019:00:55:33] "GET /js/app.js HTTP/1.1" 200 8567 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:55:38,726 Copied uploaded file as <_io.BufferedWriter name='/Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575795338725.jpeg'>
+2019-12-08 00:55:38,727 127.0.0.1 - - [08/Dec/2019:00:55:38] "POST /imgupload HTTP/1.1" 200 77 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:55:38,759 Converting /Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575795338725.jpeg to grayscale
+2019-12-08 00:55:40,858 Writing image file, /Users/navendusinha/PycharmProjects/pixelate/ui_www/pxltd/1575795340858-pxltd.JPG
+2019-12-08 00:55:40,879 127.0.0.1 - - [08/Dec/2019:00:55:40] "POST /pixelatefaces?ifile=1575795338725.jpeg HTTP/1.1" 200 146 "http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 00:55:40,884 127.0.0.1 - - [08/Dec/2019:00:55:40] "GET /pxltd/1575795340858-pxltd.JPG HTTP/1.1" 200 265780 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:02:54,245 127.0.0.1 - - [08/Dec/2019:01:02:54] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:02:54,249 127.0.0.1 - - [08/Dec/2019:01:02:54] "GET /js/app.js HTTP/1.1" 200 8568 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:02:54,250 127.0.0.1 - - [08/Dec/2019:01:02:54] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:02:54,260 127.0.0.1 - - [08/Dec/2019:01:02:54] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:02:54,265 127.0.0.1 - - [08/Dec/2019:01:02:54] "GET /js/app.js HTTP/1.1" 200 8568 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:03:21,894 127.0.0.1 - - [08/Dec/2019:01:03:21] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:03:21,897 127.0.0.1 - - [08/Dec/2019:01:03:21] "GET /js/app.js HTTP/1.1" 200 8569 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:03:21,938 127.0.0.1 - - [08/Dec/2019:01:03:21] "GET /js/app.js HTTP/1.1" 200 8569 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:03:30,116 Copied uploaded file as <_io.BufferedWriter name='/Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575795810113.jpeg'>
+2019-12-08 01:03:30,117 127.0.0.1 - - [08/Dec/2019:01:03:30] "POST /imgupload HTTP/1.1" 200 77 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:03:30,149 Converting /Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575795810113.jpeg to grayscale
+2019-12-08 01:03:32,312 Writing image file, /Users/navendusinha/PycharmProjects/pixelate/ui_www/pxltd/1575795812312-pxltd.JPG
+2019-12-08 01:03:32,335 127.0.0.1 - - [08/Dec/2019:01:03:32] "POST /pixelatefaces?ifile=1575795810113.jpeg HTTP/1.1" 200 146 "http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:03:32,340 127.0.0.1 - - [08/Dec/2019:01:03:32] "GET /pxltd/1575795812312-pxltd.JPG HTTP/1.1" 200 265780 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:03:35,443 127.0.0.1 - - [08/Dec/2019:01:03:35] "GET /pxltd/1575795812312-pxltd.JPG HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:05:44,102 127.0.0.1 - - [08/Dec/2019:01:05:44] "GET /pxltd/1575795812312-pxltd.JPG HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:07:38,467 [08/Dec/2019:01:07:38] ENGINE Restarting because /Users/navendusinha/PycharmProjects/pixelate/PixelateCore.py changed.
+2019-12-08 01:07:38,467 [08/Dec/2019:01:07:38] ENGINE Stopped thread 'Autoreloader'.
+2019-12-08 01:07:38,467 [08/Dec/2019:01:07:38] ENGINE Bus STOPPING
+2019-12-08 01:07:38,469 [08/Dec/2019:01:07:38] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 6001)) shut down
+2019-12-08 01:07:38,469 [08/Dec/2019:01:07:38] ENGINE Bus STOPPED
+2019-12-08 01:07:38,469 [08/Dec/2019:01:07:38] ENGINE Bus EXITING
+2019-12-08 01:07:38,469 [08/Dec/2019:01:07:38] ENGINE Bus EXITED
+2019-12-08 01:07:38,497 [08/Dec/2019:01:07:38] ENGINE Waiting for child threads to terminate...
+2019-12-08 01:07:38,498 [08/Dec/2019:01:07:38] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/pixelate/PixelateServer.py
+2019-12-08 01:08:06,808 Static dir: /Users/navendusinha/PycharmProjects/pixelate/ui_www 
+2019-12-08 01:08:06,808 Static directory for web-content: /Users/navendusinha/PycharmProjects/pixelate/ui_www
+2019-12-08 01:08:06,826 [08/Dec/2019:01:08:06] ENGINE Listening for SIGTERM.
+2019-12-08 01:08:06,827 [08/Dec/2019:01:08:06] ENGINE Listening for SIGHUP.
+2019-12-08 01:08:06,827 [08/Dec/2019:01:08:06] ENGINE Listening for SIGUSR1.
+2019-12-08 01:08:06,827 [08/Dec/2019:01:08:06] ENGINE Bus STARTING
+2019-12-08 01:08:06,828 [08/Dec/2019:01:08:06] ENGINE Started monitor thread 'Autoreloader'.
+2019-12-08 01:08:06,939 [08/Dec/2019:01:08:06] ENGINE Serving on http://127.0.0.1:6001
+2019-12-08 01:08:06,940 [08/Dec/2019:01:08:06] ENGINE Bus STARTED
+2019-12-08 01:08:10,320 127.0.0.1 - - [08/Dec/2019:01:08:10] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:08:10,325 127.0.0.1 - - [08/Dec/2019:01:08:10] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:08:10,328 127.0.0.1 - - [08/Dec/2019:01:08:10] "GET /js/app.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:08:10,336 127.0.0.1 - - [08/Dec/2019:01:08:10] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:08:10,342 127.0.0.1 - - [08/Dec/2019:01:08:10] "GET /js/app.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:08:19,384 Copied uploaded file as <_io.BufferedWriter name='/Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575796099383.jpeg'>
+2019-12-08 01:08:19,385 127.0.0.1 - - [08/Dec/2019:01:08:19] "POST /imgupload HTTP/1.1" 200 77 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:08:19,421 Converting /Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575796099383.jpeg to grayscale
+2019-12-08 01:08:19,422 [08/Dec/2019:01:08:19] HTTP 
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 628, in respond
+    self._do_respond(path_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 687, in _do_respond
+    response.body = self.handler()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/Users/navendusinha/PycharmProjects/pixelate/PixelateServer.py", line 98, in pixelatefaces
+    wwwbase=self.staticdir)
+  File "/Users/navendusinha/PycharmProjects/pixelate/PixelateCore.py", line 79, in facedetectFrame
+    flags = cv2.CV_HAAR_SCALE_IMAGE
+AttributeError: module 'cv2.cv2' has no attribute 'CV_HAAR_SCALE_IMAGE'
+2019-12-08 01:08:19,427 [08/Dec/2019:01:08:19] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1:6001
+  ORIGIN: http://127.0.0.1:6001
+  COOKIE: session_id=88166ac23d65364d224b0743a7802a95ca544781
+  CONNECTION: keep-alive
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15
+  ACCEPT-LANGUAGE: en-us
+  REFERER: http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js
+  ACCEPT-ENCODING: gzip, deflate
+  Content-Length: 0
+2019-12-08 01:08:19,427 127.0.0.1 - - [08/Dec/2019:01:08:19] "POST /pixelatefaces?ifile=1575796099383.jpeg HTTP/1.1" 500 1897 "http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:09:14,473 [08/Dec/2019:01:09:14] ENGINE Restarting because /Users/navendusinha/PycharmProjects/pixelate/PixelateCore.py changed.
+2019-12-08 01:09:14,473 [08/Dec/2019:01:09:14] ENGINE Stopped thread 'Autoreloader'.
+2019-12-08 01:09:14,474 [08/Dec/2019:01:09:14] ENGINE Bus STOPPING
+2019-12-08 01:09:14,476 [08/Dec/2019:01:09:14] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 6001)) shut down
+2019-12-08 01:09:14,476 [08/Dec/2019:01:09:14] ENGINE Bus STOPPED
+2019-12-08 01:09:14,476 [08/Dec/2019:01:09:14] ENGINE Bus EXITING
+2019-12-08 01:09:14,476 [08/Dec/2019:01:09:14] ENGINE Bus EXITED
+2019-12-08 01:09:14,555 [08/Dec/2019:01:09:14] ENGINE Waiting for child threads to terminate...
+2019-12-08 01:09:14,556 [08/Dec/2019:01:09:14] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/pixelate/PixelateServer.py
+2019-12-08 01:09:15,295 Static dir: /Users/navendusinha/PycharmProjects/pixelate/ui_www 
+2019-12-08 01:09:15,295 Static directory for web-content: /Users/navendusinha/PycharmProjects/pixelate/ui_www
+2019-12-08 01:09:15,311 [08/Dec/2019:01:09:15] ENGINE Listening for SIGTERM.
+2019-12-08 01:09:15,311 [08/Dec/2019:01:09:15] ENGINE Listening for SIGHUP.
+2019-12-08 01:09:15,312 [08/Dec/2019:01:09:15] ENGINE Listening for SIGUSR1.
+2019-12-08 01:09:15,312 [08/Dec/2019:01:09:15] ENGINE Bus STARTING
+2019-12-08 01:09:15,312 [08/Dec/2019:01:09:15] ENGINE Started monitor thread 'Autoreloader'.
+2019-12-08 01:09:15,419 [08/Dec/2019:01:09:15] ENGINE Serving on http://127.0.0.1:6001
+2019-12-08 01:09:15,420 [08/Dec/2019:01:09:15] ENGINE Bus STARTED
+2019-12-08 01:29:28,145 [08/Dec/2019:01:29:28] ENGINE Restarting because /Users/navendusinha/PycharmProjects/pixelate/PixelateCore.py changed.
+2019-12-08 01:29:28,146 [08/Dec/2019:01:29:28] ENGINE Stopped thread 'Autoreloader'.
+2019-12-08 01:29:28,147 [08/Dec/2019:01:29:28] ENGINE Bus STOPPING
+2019-12-08 01:29:28,148 [08/Dec/2019:01:29:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 6001)) shut down
+2019-12-08 01:29:28,148 [08/Dec/2019:01:29:28] ENGINE Bus STOPPED
+2019-12-08 01:29:28,148 [08/Dec/2019:01:29:28] ENGINE Bus EXITING
+2019-12-08 01:29:28,148 [08/Dec/2019:01:29:28] ENGINE Bus EXITED
+2019-12-08 01:29:28,158 [08/Dec/2019:01:29:28] ENGINE Waiting for child threads to terminate...
+2019-12-08 01:29:28,158 [08/Dec/2019:01:29:28] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/pixelate/PixelateServer.py
+2019-12-08 01:29:29,775 Static dir: /Users/navendusinha/PycharmProjects/pixelate/ui_www 
+2019-12-08 01:29:29,775 Static directory for web-content: /Users/navendusinha/PycharmProjects/pixelate/ui_www
+2019-12-08 01:29:29,795 [08/Dec/2019:01:29:29] ENGINE Listening for SIGTERM.
+2019-12-08 01:29:29,795 [08/Dec/2019:01:29:29] ENGINE Listening for SIGHUP.
+2019-12-08 01:29:29,795 [08/Dec/2019:01:29:29] ENGINE Listening for SIGUSR1.
+2019-12-08 01:29:29,795 [08/Dec/2019:01:29:29] ENGINE Bus STARTING
+2019-12-08 01:29:29,796 [08/Dec/2019:01:29:29] ENGINE Started monitor thread 'Autoreloader'.
+2019-12-08 01:29:29,906 [08/Dec/2019:01:29:29] ENGINE Serving on http://127.0.0.1:6001
+2019-12-08 01:29:29,907 [08/Dec/2019:01:29:29] ENGINE Bus STARTED
+2019-12-08 01:29:54,027 [08/Dec/2019:01:29:54] ENGINE Restarting because /Users/navendusinha/PycharmProjects/pixelate/PixelateCore.py changed.
+2019-12-08 01:29:54,027 [08/Dec/2019:01:29:54] ENGINE Stopped thread 'Autoreloader'.
+2019-12-08 01:29:54,027 [08/Dec/2019:01:29:54] ENGINE Bus STOPPING
+2019-12-08 01:29:54,029 [08/Dec/2019:01:29:54] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 6001)) shut down
+2019-12-08 01:29:54,029 [08/Dec/2019:01:29:54] ENGINE Bus STOPPED
+2019-12-08 01:29:54,029 [08/Dec/2019:01:29:54] ENGINE Bus EXITING
+2019-12-08 01:29:54,030 [08/Dec/2019:01:29:54] ENGINE Bus EXITED
+2019-12-08 01:29:54,057 [08/Dec/2019:01:29:54] ENGINE Waiting for child threads to terminate...
+2019-12-08 01:29:54,058 [08/Dec/2019:01:29:54] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/pixelate/PixelateServer.py
+2019-12-08 01:29:54,859 Static dir: /Users/navendusinha/PycharmProjects/pixelate/ui_www 
+2019-12-08 01:29:54,859 Static directory for web-content: /Users/navendusinha/PycharmProjects/pixelate/ui_www
+2019-12-08 01:29:54,876 [08/Dec/2019:01:29:54] ENGINE Listening for SIGTERM.
+2019-12-08 01:29:54,876 [08/Dec/2019:01:29:54] ENGINE Listening for SIGHUP.
+2019-12-08 01:29:54,876 [08/Dec/2019:01:29:54] ENGINE Listening for SIGUSR1.
+2019-12-08 01:29:54,876 [08/Dec/2019:01:29:54] ENGINE Bus STARTING
+2019-12-08 01:29:54,877 [08/Dec/2019:01:29:54] ENGINE Started monitor thread 'Autoreloader'.
+2019-12-08 01:29:54,983 [08/Dec/2019:01:29:54] ENGINE Serving on http://127.0.0.1:6001
+2019-12-08 01:29:54,984 [08/Dec/2019:01:29:54] ENGINE Bus STARTED
+2019-12-08 01:30:34,486 127.0.0.1 - - [08/Dec/2019:01:30:34] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:30:34,488 127.0.0.1 - - [08/Dec/2019:01:30:34] "GET /js/app.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:30:34,489 127.0.0.1 - - [08/Dec/2019:01:30:34] "GET / HTTP/1.1" 200 5729 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:30:34,503 127.0.0.1 - - [08/Dec/2019:01:30:34] "GET /css/app.css HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:30:34,507 127.0.0.1 - - [08/Dec/2019:01:30:34] "GET /js/app.js HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:30:39,252 Copied uploaded file as <_io.BufferedWriter name='/Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575797439251.jpeg'>
+2019-12-08 01:30:39,254 127.0.0.1 - - [08/Dec/2019:01:30:39] "POST /imgupload HTTP/1.1" 200 77 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:30:39,289 Converting /Users/navendusinha/PycharmProjects/pixelate/ui_www/uploads/1575797439251.jpeg to grayscale
+2019-12-08 01:30:41,668 Writing image file, /Users/navendusinha/PycharmProjects/pixelate/ui_www/pxltd/1575797441668-pxltd.JPG
+2019-12-08 01:30:41,692 127.0.0.1 - - [08/Dec/2019:01:30:41] "POST /pixelatefaces?ifile=1575797439251.jpeg HTTP/1.1" 200 146 "http://127.0.0.1:6001/ajaxFuncs/ajax/ajaxWorker.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:30:41,697 127.0.0.1 - - [08/Dec/2019:01:30:41] "GET /pxltd/1575797441668-pxltd.JPG HTTP/1.1" 200 265780 "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:30:43,551 127.0.0.1 - - [08/Dec/2019:01:30:43] "GET /pxltd/1575797441668-pxltd.JPG HTTP/1.1" 304 - "http://127.0.0.1:6001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+2019-12-08 01:32:58,582 [08/Dec/2019:01:32:58] ENGINE Restarting because /Users/navendusinha/PycharmProjects/pixelate/PixelateCore.py changed.
+2019-12-08 01:32:58,583 [08/Dec/2019:01:32:58] ENGINE Stopped thread 'Autoreloader'.
+2019-12-08 01:32:58,583 [08/Dec/2019:01:32:58] ENGINE Bus STOPPING
+2019-12-08 01:32:58,585 [08/Dec/2019:01:32:58] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 6001)) shut down
+2019-12-08 01:32:58,585 [08/Dec/2019:01:32:58] ENGINE Bus STOPPED
+2019-12-08 01:32:58,585 [08/Dec/2019:01:32:58] ENGINE Bus EXITING
+2019-12-08 01:32:58,586 [08/Dec/2019:01:32:58] ENGINE Bus EXITED
+2019-12-08 01:32:58,626 [08/Dec/2019:01:32:58] ENGINE Waiting for child threads to terminate...
+2019-12-08 01:32:58,627 [08/Dec/2019:01:32:58] ENGINE Re-spawning /Library/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python /Users/navendusinha/PycharmProjects/pixelate/PixelateServer.py
+2019-12-08 01:33:00,193 Static dir: /Users/navendusinha/PycharmProjects/pixelate/ui_www 
+2019-12-08 01:33:00,193 Static directory for web-content: /Users/navendusinha/PycharmProjects/pixelate/ui_www
+2019-12-08 01:33:00,213 [08/Dec/2019:01:33:00] ENGINE Listening for SIGTERM.
+2019-12-08 01:33:00,213 [08/Dec/2019:01:33:00] ENGINE Listening for SIGHUP.
+2019-12-08 01:33:00,213 [08/Dec/2019:01:33:00] ENGINE Listening for SIGUSR1.
+2019-12-08 01:33:00,213 [08/Dec/2019:01:33:00] ENGINE Bus STARTING
+2019-12-08 01:33:00,214 [08/Dec/2019:01:33:00] ENGINE Started monitor thread 'Autoreloader'.
+2019-12-08 01:33:00,328 [08/Dec/2019:01:33:00] ENGINE Serving on http://127.0.0.1:6001
+2019-12-08 01:33:00,328 [08/Dec/2019:01:33:00] ENGINE Bus STARTED
