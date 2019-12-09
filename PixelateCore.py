@@ -75,7 +75,7 @@ class PixelateCore(object):
             grayFrame,
             scaleFactor=1.01,
             minNeighbors=18,
-            minSize=(16, 16)
+            minSize=(12, 12)
         )
 
         print("Faces: %s" % (faces))
