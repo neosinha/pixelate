@@ -19,7 +19,7 @@ class PixelateServer(object):
 
     staticdir = None
 
-    def __init__(self, staticdir=None):
+    def __init__(self, staticdir=None, cascPath=None):
         '''
         Constructor
         '''
@@ -36,12 +36,19 @@ class PixelateServer(object):
             self.uploaddir = uploaddir
 
         # Initiallize FaceDetectCore
-        cascPath = os.path.join(os.getcwd(),
+        cascFile = os.path.join(os.getcwd(),
                                 'models',
                                 'haarcascades',
                                 'haarcascade_frontalface_alt2.xml')
-        logging.info('Cascade path is %s' % cascPath)
-        self.pxlcore = PixelateCore(cascadePath=cascPath)
+        if cascPath:
+            logging.info('Cascade path is %s' % cascPath)
+            cascFile = os.path.join(cascPath,
+                                    'models',
+                                    'haarcascades',
+                                    'haarcascade_frontalface_alt2.xml')
+
+        logging.info('Cascade File is %s' % cascPath)
+        self.pxlcore = PixelateCore(cascadePath=cascFile)
             
     @HttpServer.expose
     def index(self):
@@ -125,8 +132,9 @@ if __name__ == '__main__':
     logpath = os.path.join(os.getcwd(), 'log', 'pixelate.log')
     logdir = os.path.dirname(logpath)
 
+    cascPath = os.path.join(os.getcwd(),
+                            'models')
 
-    
     ap = argparse.ArgumentParser()  
     ap.add_argument("-p", "--port", required=False, default=6001,
                 help="Port number to start HTTPServer." )
@@ -136,6 +144,9 @@ if __name__ == '__main__':
 
     ap.add_argument("-s", "--static", required=False, default=www,
                 help="Static directory where WWW files are present")
+
+    ap.add_argument("-c", "--cascpath", required=False, default=cascPath,
+                    help="Directory where cascase files are found, defaults to %s" % (cascPath))
 
     ap.add_argument("-f", "--logfile", required=False, default=logpath,
                     help="Directory where application logs shall be stored, defaults to %s" % (logpath) )
@@ -154,10 +165,12 @@ if __name__ == '__main__':
     if args['logfile']:
         logpath = os.path.abspath(args['logfile'])
     else:
-
         if not os.path.exists(logdir):
             print("Log directory does not exist, creating %s" % (logdir))
             os.makedirs(logdir)
+
+    if args['cascpath']:
+        cascPath = args['cascpath']
 
     logging.basicConfig(filename=logpath, level=logging.DEBUG, format='%(asctime)s %(message)s')
     handler = logging.StreamHandler(sys.stdout)
@@ -177,7 +190,8 @@ if __name__ == '__main__':
         'tools.staticdir.dir': staticwww}
             }
 
-    HttpServer.quickstart(PixelateServer(staticdir=staticwww),
+    HttpServer.quickstart(PixelateServer(staticdir=staticwww,
+                                         cascPath=cascPath),
                             '/', conf)
 
 
