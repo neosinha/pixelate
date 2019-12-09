@@ -25,7 +25,7 @@ class PixelateCore(object):
     which can called on multiple images
     '''
 
-    def __init__(self):
+    def __init__(self, cascadePath=None):
         '''
         Constructor for PixelCore
         '''
@@ -33,7 +33,9 @@ class PixelateCore(object):
                                      'models', 
                                      'haarcascades',
                                      'haarcascade_frontalface_alt2.xml')
-        
+        if cascadePath:
+            self.cascPath = cascadePath
+
         self.faceCascade = cv2.CascadeClassifier(self.cascPath)
 
 
