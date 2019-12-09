@@ -125,8 +125,7 @@ if __name__ == '__main__':
     logpath = os.path.join(os.getcwd(), 'log', 'pixelate.log')
     logdir = os.path.dirname(logpath)
 
-    cascPath = os.path.join(os.getcwd(),
-                            'models')
+    cascPath = os.path.abspath(os.getcwd())
 
     ap = argparse.ArgumentParser()  
     ap.add_argument("-p", "--port", required=False, default=6001,
