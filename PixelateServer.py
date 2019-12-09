@@ -117,13 +117,7 @@ if __name__ == '__main__':
     dbip = '127.0.0.1'
     logpath = os.path.join(os.getcwd(), 'log', 'pixelate.log')
     logdir = os.path.dirname(logpath)
-    if not os.path.exists(logdir):
-        print("Log directory does not exist, creating %s" % (logdir))
-        os.makedirs(logdir)
 
-    logging.basicConfig(filename=logpath,level=logging.DEBUG, format='%(asctime)s %(message)s')
-    handler = logging.StreamHandler(sys.stdout) 
-    logging.getLogger().addHandler(handler)
 
     
     ap = argparse.ArgumentParser()  
@@ -145,6 +139,17 @@ if __name__ == '__main__':
     ipadd = args["ipaddress"]
 
     staticwww = os.path.abspath(args['static'])
+    if args['logfile']:
+        logpath = os.path.abspath(args['logfile'])
+    else:
+
+        if not os.path.exists(logdir):
+            print("Log directory does not exist, creating %s" % (logdir))
+            os.makedirs(logdir)
+
+    logging.basicConfig(filename=logpath, level=logging.DEBUG, format='%(asctime)s %(message)s')
+    handler = logging.StreamHandler(sys.stdout)
+    logging.getLogger().addHandler(handler)
 
     HttpServer.config.update({'server.socket_host': ipadd,
                            'server.socket_port': portnum,
