@@ -200,7 +200,7 @@ function readFile(input) {
 function uploadTrigger() {
     console.log('Upload Trigger');
     progressModal();
-    $('#appmodal').modal('show');
+    //$('#appmodal').modal('show');
 
     var fd = new FormData();
     var fileSelection = document.getElementById('imgfile');
