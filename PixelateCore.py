@@ -71,7 +71,6 @@ class PixelateCore(object):
             grayFrame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
         # Execute the FaceDetectionModel
-        self.faceCascade.detectMultiScale()
         faces = self.faceCascade.detectMultiScale(
             grayFrame,
             scaleFactor=1.01,

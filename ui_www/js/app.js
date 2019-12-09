@@ -264,7 +264,7 @@ function progressModal() {
     img.setAttribute('class', 'imcenter');
 
     //mcnt.appendChild(img);
-    var msg = ui.createNotification('warning', 'Proress');
+    var msg = ui.createNotification('warning', 'Progress');
     var notify = document.getElementById('notify');
     notify.appendChild(msg);
 }
