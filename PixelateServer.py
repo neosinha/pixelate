@@ -17,16 +17,18 @@ class PixelateServer(object):
     classdocs
     '''
 
+    staticdir = None
 
     def __init__(self, staticdir=None):
         '''
         Constructor
         '''
+
         self.staticdir = os.path.join(os.getcwd(), 'ui_www')
         if staticdir:
             self.staticdir = staticdir
 
-        logging.info("Static directory for web-content: %s" % (self.staticdir))
+        logging.info("Static directory for web-content: %s" % self.staticdir)
         
         # Intializing the upload directory
         uploaddir = os.path.join(self.staticdir, '..', 'uploads')
@@ -135,10 +137,15 @@ if __name__ == '__main__':
 
     # Parse Arguments
     args = vars(ap.parse_args())
-    portnum = int(args["port"])
-    ipadd = args["ipaddress"]
+    if args['port']:
+        portnum = int(args["port"])
 
-    staticwww = os.path.abspath(args['static'])
+    if args['ipaddress']:
+        ipadd = args["ipaddress"]
+
+    if args['static']:
+        staticwww = os.path.abspath(args['static'])
+
     if args['logfile']:
         logpath = os.path.abspath(args['logfile'])
     else:
