@@ -23,8 +23,9 @@ class PixelateServer(object):
         Constructor
         '''
         self.staticdir = os.path.join(os.getcwd(), 'ui_www')
-        if www: 
-            self.staticdir = www
+        if staticdir:
+            self.staticdir = staticdir
+
         logging.info("Static directory for web-content: %s" % (self.staticdir))
         
         # Intializing the upload directory
@@ -108,8 +109,7 @@ class PixelateServer(object):
         return epc
 
 
-
-            # main code section
+# main code section
 if __name__ == '__main__':
     port = 9005
     www = os.path.join(os.getcwd(), 'ui_www')
@@ -143,6 +143,7 @@ if __name__ == '__main__':
     args = vars(ap.parse_args())
     portnum = int(args["port"])
     ipadd = args["ipaddress"]
+
     staticwww = os.path.abspath(args['static'])
 
     HttpServer.config.update({'server.socket_host': ipadd,
@@ -152,16 +153,14 @@ if __name__ == '__main__':
                            'server.max_request_body_size': 0
                            })
 
-    static_dir = staticwww
-
-    logging.info("Static dir: %s " % (static_dir))
+    logging.info("Static dir: %s " % (staticwww))
     conf = { '/': {
             'tools.sessions.on': True,
             'tools.staticdir.on': True,
-            'tools.staticdir.dir': static_dir}
+        'tools.staticdir.dir': staticwww}
             }
 
-    HttpServer.quickstart(PixelateServer(staticdir=static_dir),
+    HttpServer.quickstart(PixelateServer(staticdir=staticwww),
                             '/', conf)
 
 
