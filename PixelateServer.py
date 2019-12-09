@@ -36,19 +36,13 @@ class PixelateServer(object):
             self.uploaddir = uploaddir
 
         # Initiallize FaceDetectCore
-        cascFile = os.path.join(os.getcwd(),
-                                'models',
-                                'haarcascades',
-                                'haarcascade_frontalface_alt2.xml')
+        cascDir = os.path.join(os.getcwd(),
+                               'models')
         if cascPath:
-            logging.info('Cascade path is %s' % cascPath)
-            cascFile = os.path.join(cascPath,
-                                    'models',
-                                    'haarcascades',
-                                    'haarcascade_frontalface_alt2.xml')
+            cascDir = cascPath
 
-        logging.info('Cascade File is %s' % cascPath)
-        self.pxlcore = PixelateCore(cascadePath=cascFile)
+        logging.info('Cascade path is %s' % cascPath)
+        self.pxlcore = PixelateCore(cascadePath=cascPath)
             
     @HttpServer.expose
     def index(self):

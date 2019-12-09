@@ -34,8 +34,12 @@ class PixelateCore(object):
                                      'haarcascades',
                                      'haarcascade_frontalface_alt2.xml')
         if cascadePath:
-            self.cascPath = cascadePath
+            self.cascPath = os.path.join(os.path.abspath(cascadePath),
+                                         'models',
+                                         'haarcascades',
+                                         'haarcascade_frontalface_alt2.xml')
 
+        print('Loading HAAR-Cascade file: %s' % (self.cascPath))
         self.faceCascade = cv2.CascadeClassifier(self.cascPath)
 
 
