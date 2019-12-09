@@ -207,7 +207,7 @@ function uploadTrigger() {
     var files = fileSelection.files;
     var upfile = files[0];
     fd.append('upfile', upfile, upfile.name);
-
+    addNotification('warning', 'Uploading '+ upfile.name);
     for (idx=0; idx < files.length; idx++) {
         console.log('==> '+ files[idx].name);
     }
@@ -234,7 +234,8 @@ function loadingView() {
 
 function updateImages(msg) {
     var resp = JSON.parse(msg);
-    $('#appmodal').modal('hide');
+    removeNotification();
+    addNotification('warning', 'Pixelating... please wait');
     var urlx = 'http://' + server + '/pixelatefaces?ifile='+resp['upimg'];
 	console.log('Sys: '+ urlx);
     ajaxLoad(pixelateCallBack, urlx);
@@ -242,9 +243,9 @@ function updateImages(msg) {
 
 function pixelateCallBack(resp) {
     console.log(resp);
-
     var rsp = JSON.parse(resp);
     var outfile = rsp['outfile'];
+    addNotification('success', 'Pixlated '+ rsp['faces'].length + ' faces.');
     var pxlimg = document.getElementById('pxlimage');
     pxlimg.setAttribute('src', 'pxltd/'+rsp['outfile']);
     pxlimage.setAttribute('class', 'imcenter');
@@ -264,9 +265,17 @@ function progressModal() {
     img.setAttribute('class', 'imcenter');
 
     //mcnt.appendChild(img);
-    var msg = ui.createNotification('warning', 'Progress');
+}
+function addNotification(alertType, msg) {
+    removeNotification();
+    var msg = ui.createNotification(alertType, msg);
     var notify = document.getElementById('notify');
     notify.appendChild(msg);
+}
+
+function removeNotification() {
+    var notify = document.getElementById('notify');
+    notify.innerHTML = '';
 }
 
 function addImageCol() {

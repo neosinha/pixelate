@@ -36,8 +36,7 @@ class PixelateServer(object):
             self.uploaddir = uploaddir
 
         # Initiallize FaceDetectCore
-        cascDir = os.path.join(os.getcwd(),
-                               'models')
+        cascDir = os.path.abspath(os.getcwd())
         if cascPath:
             cascDir = cascPath
 
